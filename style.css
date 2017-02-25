@@ -1,0 +1,117 @@
+.new-background
+{
+	background-color: #fff;
+}
+.new-background hr
+{
+	width: 55%;
+	border-width: 2px;
+	float: left;
+}
+.main-image-margin
+{
+	margin-bottom: 15px;
+}
+.image-title
+{
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 10px 0;
+	position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    bottom: -50px;
+    visibility: hidden;
+    opacity: 0;
+}
+.image-hover
+{
+	position: relative;
+	transition: all 2s linear;
+}
+.image-hover:hover .image-title
+{
+	visibility: visible;
+	bottom: 0;
+	opacity: 1;
+}
+.bottom-margin
+{
+	margin-bottom: 20px;
+}
+.psub-heading
+{
+	font-size: 24px;
+    line-height: 28px;
+    margin: 20px 0;
+}
+.thumb:hover img.land-img
+{
+	transform: none !important;
+	-webkit-transform: none !important;
+	-moz-transform: none !important;
+    -ms-transform: none !important;
+    -o-transform: none !important;
+}
+.thumb img.land-img
+{
+    -moz-transition: none !important;
+    -webkit-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+}
+
+.portfolio_thumb{
+display: block;
+    position: relative;
+    overflow: hidden;	
+}
+
+.portfolio_thumb .thumb_overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    -moz-transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+    color: #ffffff;
+    background: transparent;
+}
+
+.portfolio_thumb .thumb_overlay p {
+    color: #fff;
+    position: absolute;
+    bottom: -50px;
+    left: 38px;
+    right: 20px;
+    -moz-transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+}
+
+.portfolio_thumb .thumb_overlay p:before {
+    content: '\f05a';
+    position: absolute;
+    top: -20px;
+    left: -162px;
+    font: 400 36px 'FontAwesome';
+    line-height: 36px;
+    margin-top: -18px;
+    text-align: center;
+    -moz-transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+    -moz-transition-delay: 0.3s;
+    -o-transition-delay: 0.3s;
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
